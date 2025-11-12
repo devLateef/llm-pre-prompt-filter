@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+sentence-transformers
+transformers
+datasets
+faker
+joblib
+streamlit
+spacy
+python-dotenv
+requests
