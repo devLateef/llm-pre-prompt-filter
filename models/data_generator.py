@@ -7,7 +7,6 @@ import pandas as pd
 class PrePromptDataset:
     """
     Streams a small number of 'safe' prompts and synthesizes 'sensitive' and 'policy_violation' prompts.
-    source: 'anthropic', 'ultrachat', or 'auto'
     """
 
     def __init__(self, n_safe=500, n_sensitive=300, n_policy=300, source="auto", seed=42):
